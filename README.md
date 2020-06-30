@@ -7,10 +7,11 @@ git@github.com:looseck/test.git
 
 Creating a new branch is quick and simple.
 
-1
+1 merge 合并分支
 
-2
+2 默认使用 fast forward模式，在删除分支后，会导致分支信息丢失
 
-3
+3 加上 --no-ff 参数，使用普通模式，就会记录
 
-4
+4 git stash 暂时保存 ’ 工作现场 ’
+
